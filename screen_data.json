@@ -1,0 +1,364 @@
+{
+  "screenshot": {
+    "name": "projects/1374555776806580787/files/826411801139679880",
+    "downloadUrl": "https://lh3.googleusercontent.com/aida/AEtjO1XtxdSL9WdWKpJwh9qCslWfMr6vA2bzq5QBse-3Iqta2krQI95d-uNjsBZovPunjLolRhlusiosE7ieuKj1iiZLeRF6yHBTxEh_dfDLos7saJw6mHoz7FPkBqfTlddvXP91c55hWCLZi2wpCpDNnLn_B3d7wNf_6VIzBa7_7zydUjo395_lNmArwi9GIOBIZSdjufV-iuL9XaWc1rKOkke_Zuae_q_amqpq7IaYE1Do"
+  },
+  "htmlCode": {
+    "name": "projects/1374555776806580787/files/5209024732373830296",
+    "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJxEgxzdGl0Y2hfZmlsZXMaYQosc3RpdGNoX2h0bWxfMDAwNjVkMzg3OWFhOTdmNjA2ZmZlNGU5NjcxYmY1M2ESCxIHEKry15-8GRgBkgEjCgpwcm9qZWN0X2lkEhVCEzEzNzQ1NTU3NzY4MDY1ODA3ODc&filename=&opi=89354086",
+    "mimeType": "text/html"
+  },
+  "id": "da1dfe06315f4703b4e2e3865b780766",
+  "generatedBy": "figaro_agent",
+  "width": "2560",
+  "height": "15398",
+  "title": "Giovanni Rifki Aditya — Personal Portfolio",
+  "prompt": "High-fidelity personal portfolio screen for Giovanni Rifki Aditya.\nFollow every specific detail in the prompt:\n\nAesthetic & Tone:\n- Dark minimalist, quiet, technical, creative, slightly experimental. Like a young Indonesian developer's real personal workspace late at night.\n- Background #0F0F0F, secondary surface #151515, borders #27272A, primary text #F5F5F5, secondary text #A1A1AA.\n- Accent: #6D28D9 / purple used VERY selectively (hover states, small tags, active indicators, subtle glow, buttons).\n- Fonts: Space Grotesk for headings, Inter for body, font-mono for technical labels and metadata.\n\nHERO SECTION:\n- Lots of empty space, serene and uncluttered.\n- Small technical label: \"SOFTWARE & GAMES DEVELOPMENT STUDENT\" with a subtle status badge `● ID · UTC+7`.\n- Main headline in Space Grotesk:\n  \"Building things,\n   one line at a time.\"\n- Supporting text in Inter:\n  \"I'm a software and games development student exploring web development, software development, and creative projects with code.\"\n- CTAs: Primary button [View Projects] (sleek dark button with subtle purple hover glow & border), and [GitHub] (minimal outlined button with small external link icon).\n- Developer status indicator:\n  \"currently learning: Godot · PHP · JavaScript · Git\" styled with subtle monospace pills or inline terminal prompt syntax `\u003e currently learning: ...` with a gentle blinking purple or white cursor.\n- Workspace technical details: Tiny subtle coordinate watermark (e.g. `SURAKARTA [7.57° S, 110.82° E] / 2026.SYS`), faint grid intersection marks (+) or code fragments that feel authentic and quiet.\n\nABOUT SECTION:\n- Monospace section tag: `// 01. ABOUT`\n- Title: \"A little about me.\" (Space Grotesk, confident, not oversized).\n- Conversational authentic copy:\n  \"I'm Giovanni, a software and games development student from Indonesia. I enjoy building things with code, from websites and software projects to small experiments in game development.\n   I'm still learning, and that's part of the point. This portfolio documents the things I'm building, the technologies I'm exploring, and the direction I'm trying to grow toward.\"\n- Small personal metadata card / grid with clean borders (#27272A) and #151515 background:\n  - Based in: \"Surakarta, Indonesia\"\n  - Currently: \"Grade 11 · PPLG\" (Pengembangan Perangkat Lunak & Gim)\n  - Focus: \"Web Development\"\n  - Exploring: \"Software & Game Development\"\n\nGITHUB-STYLE ELEMENT (\"things I've been building\"):\n- Activity visualization inspired by GitHub contribution matrices.\n- Headline / label: \"things I've been building\" with subtitle \"A quiet record of consistency and small iterations.\"\n- Render an interactive looking dark grid of contribution squares (subtle dark boxes #1c1b1b, with selective purple accent squares #6D28D9 and muted purple tints #3b1d6d representing commits/iterations).\n- Monospace stats footer: \"142 sessions logged this year · streak: active · last push: 2h ago\".\n\nPROJECTS SECTION (Visual Centerpiece):\n- Section tag: `// 02. SELECTED WORK`\n- Title: \"Projects & Experiments\" with supporting caption.\n- NOT a generic 3-column card grid! Large horizontal project entries (case study previews) with generous padding, separated by fine borders #27272A.\n- Entry 01:\n  - Left/Details:\n    - Number: \"01\" (muted monospace)\n    - Title: \"SISTEM INFORMASI SEKOLAH\"\n    - Description: \"A school information system built as a practical web development project.\"\n    - Tech stack: \"PHP · MySQL · HTML · CSS\" (clean mono tags)\n    - Action: \"[View Project →]\" button with hover animation\n  - Right/Visual:\n    - Custom stylized UI fragment / interface preview showing a minimal database schema, clean admin table snippet, and PHP code snippet card with glowing line numbers.\n- Entry 02:\n  - Left/Visual:\n    - Styled Android interface mockup preview: minimal dark mobile device frame showing BMI calculator interface, dial indicator, Kotlin/Java code fragment with clean typography.\n  - Right/Details:\n    - Number: \"02\"\n    - Title: \"BMI CALCULATOR\"\n    - Description: \"A simple Android BMI calculator created as a school project.\"\n    - Tech stack: \"Android · Java/Kotlin\"\n    - Action: \"[View Project →]\"\n- Entry 03:\n  - Left/Details:\n    - Number: \"03\"\n    - Title: \"GAME DEVELOPMENT\"\n    - Description: \"An ongoing exploration into 2D narrative game development using Godot.\"\n    - Tech stack: \"Godot · GDScript\"\n    - Action: \"[View Project →]\"\n  - Right/Visual:\n    - Pixel-inspired / 2D game development viewport visual: dark tilemap canvas, GDScript node tree inspector (`Node2D \u003e Player \u003e AnimatedSprite2D`), and atmospheric pixel moon/particles illustration crafted with crisp CSS/SVG.\n- Project Hover Polish:\n  - Interactive hover state classes (`group hover:border-purple-900/50 hover:bg-[#121215] transition-all duration-300`).\n\nSKILLS SECTION:\n- Section tag: `// 03. TOOLBOX`\n- Title: \"Technologies & Tools\"\n- Subtitle: \"A collection of tools I work with daily and technologies I'm discovering.\" (NOT progress bars like HTML 90%!)\n- Clean typography-based categorization in a 3-column or flex container with borders:\n  - \"WEB\": HTML, CSS, JavaScript, PHP\n  - \"SOFTWARE\": Java, Python, C++\n  - \"TOOLS\": Git, GitHub, MySQL, Godot\n- Each technology rendered as an editorial typography item with clean mono categorization, subtle dot status, and quiet hover highlight.\n\nLEARNING JOURNEY:\n- Section tag: `// 04. TIMELINE`\n- Title: \"Learning Journey\"\n- Minimal understated vertical timeline:\n  - 2023: \"Started becoming interested in programming.\"\n  - 2024: \"Started learning web development and programming fundamentals.\"\n  - 2025: \"Worked on school projects and started using Git/GitHub.\"\n  - 2026: \"Exploring software development, Android development, and game development.\"\n  - CURRENT: \"Building projects, learning consistently, and preparing for the next step.\"\n- Styled with a delicate vertical line (#27272A), hollow dots, and glowing purple dot on CURRENT.\n\nCONTACT SECTION:\n- Section tag: `// 05. CONTACT`\n- Visually calm, spacious.\n- Headline: \"Let's build something.\"\n- Supporting text: \"If you want to talk about a project, technology, collaboration, or just exchange ideas, feel free to reach out.\"\n- Clean contact actions:\n  - [GitHub] link card with username handle `@giovannirifki`\n  - [LinkedIn] link card\n  - [Email] link card `giovanni.aditya@student.id` (with copy-to-clipboard button)\n  - Small status note: `AVAILABLE FOR: COLLABORATION & INTERNSHIP`\n\nFOOTER:\n- Integrated smooth bottom divider, \"© 2026 Giovanni Rifki Aditya · Built with curiosity and a lot of code.\", Surakarta local time live display or static indicator.\n\nRefined craftsmanship:\n- Include subtle keyframe CSS animations for smooth fade-ins and micro-interactions.\n- Strict adherence to colors (#0F0F0F, #151515, #F5F5F5, #A1A1AA, #27272A, #6D28D9).\n- No generic SaaS cards or flashy cyberpunk elements. Mature, quiet, thoughtful student developer atmosphere.",
+  "name": "projects/1374555776806580787/screens/da1dfe06315f4703b4e2e3865b780766",
+  "theme": {
+    "colorMode": "DARK",
+    "font": "SPACE_GROTESK",
+    "roundness": "ROUND_FOUR",
+    "customColor": "#6d28d9",
+    "headlineFont": "SPACE_GROTESK",
+    "bodyFont": "INTER",
+    "labelFont": "JETBRAINS_MONO",
+    "namedColors": {
+      "primary_container": "#6d28d9",
+      "on_secondary_container": "#b4b4bd",
+      "secondary_fixed_dim": "#c6c6cf",
+      "primary_fixed": "#ebddff",
+      "on_tertiary": "#522300",
+      "primary_fixed_dim": "#d3bbff",
+      "surface_variant": "#353534",
+      "secondary_fixed": "#e2e1eb",
+      "surface_container_low": "#1c1b1b",
+      "on_error_container": "#ffdad6",
+      "tertiary_fixed_dim": "#ffb68b",
+      "on_background": "#e5e2e1",
+      "inverse_primary": "#7331df",
+      "tertiary": "#ffb68b",
+      "inverse_on_surface": "#313030",
+      "surface_container_high": "#2a2a2a",
+      "surface_dim": "#131313",
+      "surface_container": "#201f1f",
+      "tertiary_container": "#8f4200",
+      "on_primary_fixed": "#250059",
+      "secondary_container": "#45464e",
+      "surface_bright": "#3a3939",
+      "on_surface_variant": "#ccc3d7",
+      "primary": "#d3bbff",
+      "inverse_surface": "#e5e2e1",
+      "on_error": "#690005",
+      "on_secondary_fixed_variant": "#45464e",
+      "on_tertiary_fixed": "#321300",
+      "surface_container_highest": "#353534",
+      "outline": "#958da1",
+      "on_primary_container": "#dac5ff",
+      "error_container": "#93000a",
+      "surface": "#131313",
+      "on_secondary": "#2f3037",
+      "secondary": "#c6c6cf",
+      "error": "#ffb4ab",
+      "surface_container_lowest": "#0e0e0e",
+      "surface_tint": "#d3bbff",
+      "on_primary_fixed_variant": "#5b00c5",
+      "on_tertiary_container": "#ffc19e",
+      "background": "#131313",
+      "on_secondary_fixed": "#1a1b22",
+      "on_surface": "#e5e2e1",
+      "on_primary": "#3f008d",
+      "tertiary_fixed": "#ffdbc8",
+      "on_tertiary_fixed_variant": "#743400",
+      "outline_variant": "#4a4455"
+    },
+    "colorVariant": "FIDELITY",
+    "overridePrimaryColor": "#6d28d9",
+    "overrideSecondaryColor": "#a1a1aa",
+    "overrideNeutralColor": "#0f0f0f",
+    "spacingScale": 2,
+    "typography": {
+      "headline-md": {
+        "fontFamily": "Space Grotesk",
+        "fontSize": "22px",
+        "fontWeight": "500",
+        "lineHeight": "28px",
+        "letterSpacing": "-0.01em"
+      },
+      "display-hero-mobile": {
+        "fontFamily": "Space Grotesk",
+        "fontSize": "36px",
+        "fontWeight": "600",
+        "lineHeight": "44px",
+        "letterSpacing": "-0.02em"
+      },
+      "headline-lg": {
+        "fontFamily": "Space Grotesk",
+        "fontSize": "32px",
+        "fontWeight": "500",
+        "lineHeight": "40px",
+        "letterSpacing": "-0.02em"
+      },
+      "body-md": {
+        "fontFamily": "Inter",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "lineHeight": "22px",
+        "letterSpacing": "0em"
+      },
+      "body-sm": {
+        "fontFamily": "Inter",
+        "fontSize": "13px",
+        "fontWeight": "400",
+        "lineHeight": "20px",
+        "letterSpacing": "0.01em"
+      },
+      "meta-tag": {
+        "fontFamily": "JetBrains Mono",
+        "fontSize": "11px",
+        "fontWeight": "500",
+        "lineHeight": "16px",
+        "letterSpacing": "0.06em"
+      },
+      "meta-counter": {
+        "fontFamily": "JetBrains Mono",
+        "fontSize": "10px",
+        "fontWeight": "400",
+        "lineHeight": "14px",
+        "letterSpacing": "0.1em"
+      },
+      "headline-sm": {
+        "fontFamily": "Space Grotesk",
+        "fontSize": "18px",
+        "fontWeight": "500",
+        "lineHeight": "24px",
+        "letterSpacing": "0em"
+      },
+      "headline-lg-mobile": {
+        "fontFamily": "Space Grotesk",
+        "fontSize": "24px",
+        "fontWeight": "500",
+        "lineHeight": "32px",
+        "letterSpacing": "-0.01em"
+      },
+      "code-base": {
+        "fontFamily": "JetBrains Mono",
+        "fontSize": "13px",
+        "fontWeight": "400",
+        "lineHeight": "20px",
+        "letterSpacing": "0em"
+      },
+      "body-lg": {
+        "fontFamily": "Inter",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "26px",
+        "letterSpacing": "-0.01em"
+      },
+      "display-hero": {
+        "fontFamily": "Space Grotesk",
+        "fontSize": "56px",
+        "fontWeight": "600",
+        "lineHeight": "64px",
+        "letterSpacing": "-0.03em"
+      }
+    },
+    "spacing": {
+      "margin-mobile": "1.25rem",
+      "space-xs": "0.25rem",
+      "space-3xl": "6rem",
+      "space-xl": "2.5rem",
+      "space-2xl": "4rem",
+      "space-md": "1rem",
+      "space-sm": "0.5rem",
+      "margin": "3rem",
+      "gutter": "1.5rem",
+      "space-lg": "1.5rem",
+      "gutter-mobile": "1rem"
+    },
+    "headlineFontFamily": "Space Grotesk",
+    "bodyFontFamily": "Inter",
+    "labelFontFamily": "JetBrains Mono"
+  },
+  "deviceType": "DESKTOP",
+  "screenType": "DESIGN",
+  "screenMetadata": {
+    "agentType": "PRO_AGENT",
+    "status": "COMPLETE",
+    "displayMode": "HTML"
+  },
+  "designSystem": {
+    "name": "assets/9c6b6f65abdd44f3ad4bd53b37a51a20",
+    "designSystem": {
+      "displayName": "Nocturne Engineer",
+      "styleGuidelines": "## Brand & Style\n\nThis design system expresses a nocturnal, razor-focused digital workspace tailored for a hybrid software engineer and game developer. It merges the disciplined restraint of Japanese editorial minimalism with the utilitarian precision of modern developer tools and late-night game engines.\n\n### Emotional Signature\n- **Atmospheric & Quiet:** Deep canvas depths evoke focused 2:00 AM terminal sessions and calm creative flow.\n- **Disciplined Precision:** Architectural hairline rules, exposed alignments, and strict typographic hierarchies create absolute trust in technical competence.\n- **Creative Undercurrent:** Controlled, focused violet accents pierce through monochrome discipline, hinting at experimental shader work, procedural logic, and world-building.\n\n### Visual Style\nA blend of **Technical Minimalism** and **Cyber-Editorial Brutalism**:\n- Deep obsidian base layers paired with faint charcoal containers.\n- Hairline architectural grid borders (`1px solid #27272A`) that delineate functional modules like drafting paper or IDE panels.\n- Micro-details informed by technical readouts: coordinates, build stamps, commit hashes, and status pings styled in crisp monospaced glyphs.\n- Restraint over decoration: zero ornamental fluff; visual drama stems exclusively from contrast, negative space, and disciplined luminescence.\n\n## Layout & Spacing\n\nThe portfolio employs a desktop 12-column architectural grid framed by distinct vertical and horizontal reference rules.\n\n### Layout Mechanics\n- **Max Content Width:** Centered container constrained to `1200px` to maintain strict typographic measure and avoid sparse content spread.\n- **Section Rhythm:** Massive vertical whitespace (`space-3xl` / 96px) separates major disciplines (e.g., Game Engines vs. Web Infrastructure vs. Shaders), creating an exhibition-catalog cadence.\n- **Micro Spacing:** Components utilize tight internal multiples of 4px and 8px to maintain a dense, developer-native tool feel inside cards.\n- **Hairline Construction:** Layout tiers are visually divided with continuous 1px rules in `#27272A`. In key sections, faint coordinate markers or section codes intersect grid corners to emphasize precision drafting.\n\n### Breakpoint Adaptation\n- **Desktop (\u003e= 1024px):** 12 columns, 48px canvas margin, persistent split panes for project preview & metadata inspect panels.\n- **Tablet (768px - 1023px):** 8 columns, 32px canvas margin, collapsing side-by-side inspection into vertical card decks.\n- **Mobile (\u003c 768px):** 4 columns, 20px canvas margin, unified vertical flow, single-column code previews, horizontal-scrolling tags.\n\n## Elevation & Depth\n\nThis design system avoids traditional dropped blur shadows and skeuomorphic gradients in favor of **Tonal Layering** and **Selective Luminescence**.\n\n### Depth Layers\n1. **Layer 0 (Canvas Base - `#0F0F0F`):** The floor level. Houses subtle, non-intrusive dot-matrix grid patterns (24px interval, opacity 3%).\n2. **Layer 1 (Card & Module Surface - `#151515`):** Bordered with a 1px continuous stroke of `#27272A`. Creates separation through luminance step-up rather than shadow.\n3. **Layer 2 (Interactive Floating / Hover - `#1C1C1F`):** Triggered on card interaction and menu overlays. Accompanied by a 1px border shift from `#27272A` to `#3F3F46`.\n4. **Selective Accent Glow:** Modals, selected project states, and interactive pills emit a subtle ambient radial glow:\n   - `box-shadow: 0 0 24px -4px rgba(109, 40, 217, 0.25)`\n   - Pure black outlines remain pinned via `border: 1px solid #6D28D9` to ensure geometric crispness inside the glow.\n\n## Components\n\n### Buttons\n- **Primary Action:** Solid background `#6D28D9`, foreground `#F5F5F5`, typography `meta-tag`, border `1px solid rgba(255, 255, 255, 0.1)`. Hover shifts to `#7C3AED` with `box-shadow: 0 0 16px rgba(109, 40, 217, 0.4)`.\n- **Secondary (Ghost Console):** Background `#151515`, foreground `#F5F5F5`, border `1px solid #27272A`. Hover shifts background to `#1C1C1F` and border to `#3F3F46`.\n- **Terminal Action:** Monospaced prefix command prompt `\u003e_` preceding action text.\n\n### Badges & Metadata Chips\n- Background: `#151515` or `rgba(109, 40, 217, 0.08)`.\n- Border: `1px solid #27272A` (or `rgba(109, 40, 217, 0.3)` for primary tags).\n- Typography: `meta-tag` in `JetBrains Mono`.\n- Iconography: Mini square or circle indicator (e.g., green dot for `C++`, violet dot for `GLSL`, gray for `Vulkan`).\n\n### Project & Game Feature Cards\n- Frame: Background `#151515`, border `1px solid #27272A`, radius `6px`, padding `space-lg`.\n- Top-bar Header: Displays an indexed sequence tracker (e.g., `// 001. SHADER_PIPELINE`) and release year in `meta-tag` style, bounded by a 1px horizontal rule.\n- Interactive State: On hover, border color transitions smoothly from `#27272A` to `#6D28D9` over 200ms with a faint violet back-glow.\n\n### Interactive State Inputs & Search\n- Field: Background `#0F0F0F`, border `1px solid #27272A`, foreground `#F5F5F5`, placeholder `#52525B`.\n- Focus State: Border transitions to `#6D28D9`, outline `none`, subtle shadow `0 0 0 1px #6D28D9`.\n- Monospace Command Palette: Filter triggers styled as keyboard chords (e.g., `[CMD+K]`, `[ESC]`).\n\n### Status Flags & Indicator Pings\n- Availability pill featuring a pulsating live badge: 8px circular green element (`#10B981`) wrapped in a faint concentric wave (`animation: ping 2s infinite`). Accompanied by text `AVAILABLE FOR CONTRACT / ROLES` in `JetBrains Mono` 11px uppercase.\n\n### Code Snippet & Shader Preview Blocks\n- Styled as dark IDE viewports with a 1px border `#27272A`. Includes an integrated file header bar with tab names (e.g., `Raymarcher.hlsl`), line numbers in `#52525B`, and a discrete \"Copy Buffer\" action icon.",
+      "theme": {
+        "colorMode": "DARK",
+        "font": "SPACE_GROTESK",
+        "roundness": "ROUND_FOUR",
+        "customColor": "#6d28d9",
+        "headlineFont": "SPACE_GROTESK",
+        "bodyFont": "INTER",
+        "labelFont": "JETBRAINS_MONO",
+        "namedColors": {
+          "outline": "#958da1",
+          "surface": "#131313",
+          "secondary_container": "#45464e",
+          "tertiary_container": "#8f4200",
+          "on_secondary_fixed_variant": "#45464e",
+          "on_surface_variant": "#ccc3d7",
+          "on_secondary_container": "#b4b4bd",
+          "on_tertiary_fixed": "#321300",
+          "inverse_surface": "#e5e2e1",
+          "on_tertiary_container": "#ffc19e",
+          "primary_fixed": "#ebddff",
+          "error": "#ffb4ab",
+          "on_primary_fixed": "#250059",
+          "secondary_fixed_dim": "#c6c6cf",
+          "inverse_on_surface": "#313030",
+          "surface_variant": "#353534",
+          "secondary_fixed": "#e2e1eb",
+          "tertiary_fixed_dim": "#ffb68b",
+          "on_primary": "#3f008d",
+          "surface_container_high": "#2a2a2a",
+          "on_background": "#e5e2e1",
+          "on_error_container": "#ffdad6",
+          "surface_container_lowest": "#0e0e0e",
+          "inverse_primary": "#7331df",
+          "background": "#131313",
+          "surface_bright": "#3a3939",
+          "on_primary_fixed_variant": "#5b00c5",
+          "secondary": "#c6c6cf",
+          "on_surface": "#e5e2e1",
+          "primary_fixed_dim": "#d3bbff",
+          "on_secondary_fixed": "#1a1b22",
+          "on_tertiary_fixed_variant": "#743400",
+          "tertiary": "#ffb68b",
+          "on_tertiary": "#522300",
+          "surface_container_low": "#1c1b1b",
+          "outline_variant": "#4a4455",
+          "primary_container": "#6d28d9",
+          "surface_container_highest": "#353534",
+          "on_secondary": "#2f3037",
+          "tertiary_fixed": "#ffdbc8",
+          "error_container": "#93000a",
+          "surface_tint": "#d3bbff",
+          "on_error": "#690005",
+          "primary": "#d3bbff",
+          "on_primary_container": "#dac5ff",
+          "surface_dim": "#131313",
+          "surface_container": "#201f1f"
+        },
+        "designMd": "---\nname: Nocturne Engineer\ncolors:\n  surface: '#131313'\n  surface-dim: '#131313'\n  surface-bright: '#3a3939'\n  surface-container-lowest: '#0e0e0e'\n  surface-container-low: '#1c1b1b'\n  surface-container: '#201f1f'\n  surface-container-high: '#2a2a2a'\n  surface-container-highest: '#353534'\n  on-surface: '#e5e2e1'\n  on-surface-variant: '#ccc3d7'\n  inverse-surface: '#e5e2e1'\n  inverse-on-surface: '#313030'\n  outline: '#958da1'\n  outline-variant: '#4a4455'\n  surface-tint: '#d3bbff'\n  primary: '#d3bbff'\n  on-primary: '#3f008d'\n  primary-container: '#6d28d9'\n  on-primary-container: '#dac5ff'\n  inverse-primary: '#7331df'\n  secondary: '#c6c6cf'\n  on-secondary: '#2f3037'\n  secondary-container: '#45464e'\n  on-secondary-container: '#b4b4bd'\n  tertiary: '#ffb68b'\n  on-tertiary: '#522300'\n  tertiary-container: '#8f4200'\n  on-tertiary-container: '#ffc19e'\n  error: '#ffb4ab'\n  on-error: '#690005'\n  error-container: '#93000a'\n  on-error-container: '#ffdad6'\n  primary-fixed: '#ebddff'\n  primary-fixed-dim: '#d3bbff'\n  on-primary-fixed: '#250059'\n  on-primary-fixed-variant: '#5b00c5'\n  secondary-fixed: '#e2e1eb'\n  secondary-fixed-dim: '#c6c6cf'\n  on-secondary-fixed: '#1a1b22'\n  on-secondary-fixed-variant: '#45464e'\n  tertiary-fixed: '#ffdbc8'\n  tertiary-fixed-dim: '#ffb68b'\n  on-tertiary-fixed: '#321300'\n  on-tertiary-fixed-variant: '#743400'\n  background: '#131313'\n  on-background: '#e5e2e1'\n  surface-variant: '#353534'\ntypography:\n  display-hero:\n    fontFamily: Space Grotesk\n    fontSize: 56px\n    fontWeight: '600'\n    lineHeight: 64px\n    letterSpacing: -0.03em\n  display-hero-mobile:\n    fontFamily: Space Grotesk\n    fontSize: 36px\n    fontWeight: '600'\n    lineHeight: 44px\n    letterSpacing: -0.02em\n  headline-lg:\n    fontFamily: Space Grotesk\n    fontSize: 32px\n    fontWeight: '500'\n    lineHeight: 40px\n    letterSpacing: -0.02em\n  headline-lg-mobile:\n    fontFamily: Space Grotesk\n    fontSize: 24px\n    fontWeight: '500'\n    lineHeight: 32px\n    letterSpacing: -0.01em\n  headline-md:\n    fontFamily: Space Grotesk\n    fontSize: 22px\n    fontWeight: '500'\n    lineHeight: 28px\n    letterSpacing: -0.01em\n  headline-sm:\n    fontFamily: Space Grotesk\n    fontSize: 18px\n    fontWeight: '500'\n    lineHeight: 24px\n    letterSpacing: 0em\n  body-lg:\n    fontFamily: Inter\n    fontSize: 16px\n    fontWeight: '400'\n    lineHeight: 26px\n    letterSpacing: -0.01em\n  body-md:\n    fontFamily: Inter\n    fontSize: 14px\n    fontWeight: '400'\n    lineHeight: 22px\n    letterSpacing: 0em\n  body-sm:\n    fontFamily: Inter\n    fontSize: 13px\n    fontWeight: '400'\n    lineHeight: 20px\n    letterSpacing: 0.01em\n  code-base:\n    fontFamily: JetBrains Mono\n    fontSize: 13px\n    fontWeight: '400'\n    lineHeight: 20px\n    letterSpacing: 0em\n  meta-tag:\n    fontFamily: JetBrains Mono\n    fontSize: 11px\n    fontWeight: '500'\n    lineHeight: 16px\n    letterSpacing: 0.06em\n  meta-counter:\n    fontFamily: JetBrains Mono\n    fontSize: 10px\n    fontWeight: '400'\n    lineHeight: 14px\n    letterSpacing: 0.1em\nrounded:\n  sm: 0.125rem\n  DEFAULT: 0.25rem\n  md: 0.375rem\n  lg: 0.5rem\n  xl: 0.75rem\n  full: 9999px\nspacing:\n  gutter: 1.5rem\n  gutter-mobile: 1rem\n  margin: 3rem\n  margin-mobile: 1.25rem\n  space-xs: 0.25rem\n  space-sm: 0.5rem\n  space-md: 1rem\n  space-lg: 1.5rem\n  space-xl: 2.5rem\n  space-2xl: 4rem\n  space-3xl: 6rem\n---\n\n## Brand & Style\n\nThis design system expresses a nocturnal, razor-focused digital workspace tailored for a hybrid software engineer and game developer. It merges the disciplined restraint of Japanese editorial minimalism with the utilitarian precision of modern developer tools and late-night game engines.\n\n### Emotional Signature\n- **Atmospheric & Quiet:** Deep canvas depths evoke focused 2:00 AM terminal sessions and calm creative flow.\n- **Disciplined Precision:** Architectural hairline rules, exposed alignments, and strict typographic hierarchies create absolute trust in technical competence.\n- **Creative Undercurrent:** Controlled, focused violet accents pierce through monochrome discipline, hinting at experimental shader work, procedural logic, and world-building.\n\n### Visual Style\nA blend of **Technical Minimalism** and **Cyber-Editorial Brutalism**:\n- Deep obsidian base layers paired with faint charcoal containers.\n- Hairline architectural grid borders (`1px solid #27272A`) that delineate functional modules like drafting paper or IDE panels.\n- Micro-details informed by technical readouts: coordinates, build stamps, commit hashes, and status pings styled in crisp monospaced glyphs.\n- Restraint over decoration: zero ornamental fluff; visual drama stems exclusively from contrast, negative space, and disciplined luminescence.\n\n## Colors\n\nThe palette is engineered around dark light-absorption and controlled luminescence. High-contrast white and muted zinc dominate the foreground, while deep violet is preserved strictly for critical focal points, dynamic feedback, and active states.\n\n### Core Roles\n- **Base Canvas (`#0F0F0F`):** The absolute background. Flat, pitch-black with zero warm undertones.\n- **Surface Elevation (`#151515`):** Subdued card containers, interactive module plates, and code blocks.\n- **Surface Highlight (`#1C1C1F`):** Hover states, active list selections, and popover backdrops.\n- **Structural Stroke (`#27272A`):** 1px structural grid lines, segment dividers, and container bounds.\n- **Primary Text (`#F5F5F5`):** High legibility foreground for titles, project names, and key metrics.\n- **Secondary Text (`#A1A1AA`):** Descriptive copy, technical parameters, and navigation labels.\n- **Tertiary Text / Dim (`#52525B`):** Decorative coordinates, inactive states, commit metadata, and line numbers.\n- **Accent Glow (`#6D28D9`):** Reserved exclusively for active navigation markers, interactive focus rings, interactive badges, and subtle ambient halos.\n- **Accent Surface (`rgba(109, 40, 217, 0.12)`): Translucent violet wash for focused states, badge backdrops, and active tab indicators.\n- **System Success (`#10B981`):** Ping indicators for \"Available for work\" and running builds.\n\n## Typography\n\nTypographic scale is structured around three complementary font families:\n\n1. **Space Grotesk (Display & Headers):** Imparts an engineered, geometric voice with subtle tech eccentricity. Letter spacing is compressed slightly on large displays to provide tension and presence.\n2. **Inter (Body & Discourse):** Delivers transparent, frictionless readability for project descriptions, design narratives, and bio copy.\n3. **JetBrains Mono (Metadata, Indicators & Logs):** Acts as the foundational texture of the interface. Used for timestamps, game loop metrics, tech stack tags, status flags, and section coordinates (e.g., `[01/WORK]`, `FPS: 60`, `BUILD.STABLE`). Set strictly with uppercase tracking on labels.\n\n## Layout & Spacing\n\nThe portfolio employs a desktop 12-column architectural grid framed by distinct vertical and horizontal reference rules.\n\n### Layout Mechanics\n- **Max Content Width:** Centered container constrained to `1200px` to maintain strict typographic measure and avoid sparse content spread.\n- **Section Rhythm:** Massive vertical whitespace (`space-3xl` / 96px) separates major disciplines (e.g., Game Engines vs. Web Infrastructure vs. Shaders), creating an exhibition-catalog cadence.\n- **Micro Spacing:** Components utilize tight internal multiples of 4px and 8px to maintain a dense, developer-native tool feel inside cards.\n- **Hairline Construction:** Layout tiers are visually divided with continuous 1px rules in `#27272A`. In key sections, faint coordinate markers or section codes intersect grid corners to emphasize precision drafting.\n\n### Breakpoint Adaptation\n- **Desktop (\u003e= 1024px):** 12 columns, 48px canvas margin, persistent split panes for project preview & metadata inspect panels.\n- **Tablet (768px - 1023px):** 8 columns, 32px canvas margin, collapsing side-by-side inspection into vertical card decks.\n- **Mobile (\u003c 768px):** 4 columns, 20px canvas margin, unified vertical flow, single-column code previews, horizontal-scrolling tags.\n\n## Elevation & Depth\n\nThis design system avoids traditional dropped blur shadows and skeuomorphic gradients in favor of **Tonal Layering** and **Selective Luminescence**.\n\n### Depth Layers\n1. **Layer 0 (Canvas Base - `#0F0F0F`):** The floor level. Houses subtle, non-intrusive dot-matrix grid patterns (24px interval, opacity 3%).\n2. **Layer 1 (Card & Module Surface - `#151515`):** Bordered with a 1px continuous stroke of `#27272A`. Creates separation through luminance step-up rather than shadow.\n3. **Layer 2 (Interactive Floating / Hover - `#1C1C1F`):** Triggered on card interaction and menu overlays. Accompanied by a 1px border shift from `#27272A` to `#3F3F46`.\n4. **Selective Accent Glow:** Modals, selected project states, and interactive pills emit a subtle ambient radial glow:\n   - `box-shadow: 0 0 24px -4px rgba(109, 40, 217, 0.25)`\n   - Pure black outlines remain pinned via `border: 1px solid #6D28D9` to ensure geometric crispness inside the glow.\n\n## Shapes\n\nThe geometry adheres to a tight **0.25rem (4px to 6px)** radius structure (`roundedness: 1`).\n\n- **Structural Containers & Cards:** `0.375rem` (6px) rounded corners. Crisp and architectural without brutalist severity.\n- **Badges, Tags & Tooltips:** `0.25rem` (4px) rounded corners for an engineered, mechanical punch-card silhouette.\n- **Interactive Buttons:** `0.375rem` (6px) rounded corners.\n- **Explicit Avoidance:** Avoid continuous pill geometries (`rounded-full`) except for status indicator LEDs (`h-2 w-2 rounded-full`). Retaining square-leaning geometry is essential to preserving the Japanese technical modern aesthetic.\n\n## Components\n\n### Buttons\n- **Primary Action:** Solid background `#6D28D9`, foreground `#F5F5F5`, typography `meta-tag`, border `1px solid rgba(255, 255, 255, 0.1)`. Hover shifts to `#7C3AED` with `box-shadow: 0 0 16px rgba(109, 40, 217, 0.4)`.\n- **Secondary (Ghost Console):** Background `#151515`, foreground `#F5F5F5`, border `1px solid #27272A`. Hover shifts background to `#1C1C1F` and border to `#3F3F46`.\n- **Terminal Action:** Monospaced prefix command prompt `\u003e_` preceding action text.\n\n### Badges & Metadata Chips\n- Background: `#151515` or `rgba(109, 40, 217, 0.08)`.\n- Border: `1px solid #27272A` (or `rgba(109, 40, 217, 0.3)` for primary tags).\n- Typography: `meta-tag` in `JetBrains Mono`.\n- Iconography: Mini square or circle indicator (e.g., green dot for `C++`, violet dot for `GLSL`, gray for `Vulkan`).\n\n### Project & Game Feature Cards\n- Frame: Background `#151515`, border `1px solid #27272A`, radius `6px`, padding `space-lg`.\n- Top-bar Header: Displays an indexed sequence tracker (e.g., `// 001. SHADER_PIPELINE`) and release year in `meta-tag` style, bounded by a 1px horizontal rule.\n- Interactive State: On hover, border color transitions smoothly from `#27272A` to `#6D28D9` over 200ms with a faint violet back-glow.\n\n### Interactive State Inputs & Search\n- Field: Background `#0F0F0F`, border `1px solid #27272A`, foreground `#F5F5F5`, placeholder `#52525B`.\n- Focus State: Border transitions to `#6D28D9`, outline `none`, subtle shadow `0 0 0 1px #6D28D9`.\n- Monospace Command Palette: Filter triggers styled as keyboard chords (e.g., `[CMD+K]`, `[ESC]`).\n\n### Status Flags & Indicator Pings\n- Availability pill featuring a pulsating live badge: 8px circular green element (`#10B981`) wrapped in a faint concentric wave (`animation: ping 2s infinite`). Accompanied by text `AVAILABLE FOR CONTRACT / ROLES` in `JetBrains Mono` 11px uppercase.\n\n### Code Snippet & Shader Preview Blocks\n- Styled as dark IDE viewports with a 1px border `#27272A`. Includes an integrated file header bar with tab names (e.g., `Raymarcher.hlsl`), line numbers in `#52525B`, and a discrete \"Copy Buffer\" action icon.",
+        "colorVariant": "FIDELITY",
+        "overridePrimaryColor": "#6d28d9",
+        "overrideSecondaryColor": "#a1a1aa",
+        "overrideNeutralColor": "#0f0f0f",
+        "spacingScale": 2,
+        "typography": {
+          "body-md": {
+            "fontFamily": "Inter",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "lineHeight": "22px",
+            "letterSpacing": "0em"
+          },
+          "body-sm": {
+            "fontFamily": "Inter",
+            "fontSize": "13px",
+            "fontWeight": "400",
+            "lineHeight": "20px",
+            "letterSpacing": "0.01em"
+          },
+          "display-hero": {
+            "fontFamily": "Space Grotesk",
+            "fontSize": "56px",
+            "fontWeight": "600",
+            "lineHeight": "64px",
+            "letterSpacing": "-0.03em"
+          },
+          "headline-md": {
+            "fontFamily": "Space Grotesk",
+            "fontSize": "22px",
+            "fontWeight": "500",
+            "lineHeight": "28px",
+            "letterSpacing": "-0.01em"
+          },
+          "display-hero-mobile": {
+            "fontFamily": "Space Grotesk",
+            "fontSize": "36px",
+            "fontWeight": "600",
+            "lineHeight": "44px",
+            "letterSpacing": "-0.02em"
+          },
+          "headline-lg": {
+            "fontFamily": "Space Grotesk",
+            "fontSize": "32px",
+            "fontWeight": "500",
+            "lineHeight": "40px",
+            "letterSpacing": "-0.02em"
+          },
+          "meta-counter": {
+            "fontFamily": "JetBrains Mono",
+            "fontSize": "10px",
+            "fontWeight": "400",
+            "lineHeight": "14px",
+            "letterSpacing": "0.1em"
+          },
+          "headline-sm": {
+            "fontFamily": "Space Grotesk",
+            "fontSize": "18px",
+            "fontWeight": "500",
+            "lineHeight": "24px",
+            "letterSpacing": "0em"
+          },
+          "body-lg": {
+            "fontFamily": "Inter",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "26px",
+            "letterSpacing": "-0.01em"
+          },
+          "meta-tag": {
+            "fontFamily": "JetBrains Mono",
+            "fontSize": "11px",
+            "fontWeight": "500",
+            "lineHeight": "16px",
+            "letterSpacing": "0.06em"
+          },
+          "code-base": {
+            "fontFamily": "JetBrains Mono",
+            "fontSize": "13px",
+            "fontWeight": "400",
+            "lineHeight": "20px",
+            "letterSpacing": "0em"
+          },
+          "headline-lg-mobile": {
+            "fontFamily": "Space Grotesk",
+            "fontSize": "24px",
+            "fontWeight": "500",
+            "lineHeight": "32px",
+            "letterSpacing": "-0.01em"
+          }
+        },
+        "spacing": {
+          "margin": "3rem",
+          "gutter": "1.5rem",
+          "space-2xl": "4rem",
+          "margin-mobile": "1.25rem",
+          "space-lg": "1.5rem",
+          "space-3xl": "6rem",
+          "space-xl": "2.5rem",
+          "space-xs": "0.25rem",
+          "space-sm": "0.5rem",
+          "space-md": "1rem",
+          "gutter-mobile": "1rem"
+        },
+        "headlineFontFamily": "Space Grotesk",
+        "bodyFontFamily": "Inter",
+        "labelFontFamily": "JetBrains Mono"
+      }
+    },
+    "version": "1"
+  }
+}

@@ -1,0 +1,1174 @@
+<!DOCTYPE html>
+<html class="dark" lang="en" style="">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="web_standard" name="shell-type">
+  <title>Giovanni Rifki Aditya — Portfolio</title>
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&family=Space+Grotesk:wght@500;600&display=swap"
+    rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
+    rel="stylesheet">
+  <style>
+    @layer base {
+
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        overscroll-behavior: none;
+      }
+
+      main>:first-child {
+        margin-top: 0 !important;
+      }
+
+      main>:last-child {
+        margin-bottom: 0 !important;
+      }
+    }
+
+    ::-webkit-scrollbar {
+      display: none;
+    }
+
+    @keyframes terminal-blink {
+
+      0%,
+      100% {
+        opacity: 1;
+      }
+
+      50% {
+        opacity: 0;
+      }
+    }
+
+    .animate-terminal-blink {
+      animation: terminal-blink 1s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+    }
+  </style>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script
+    id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "on-tertiary-container": "#ffc19e", "secondary": "#c6c6cf", "outline-variant": "#4a4455", "primary-container": "#6d28d9", "primary-fixed": "#ebddff", "inverse-on-surface": "#313030", "background": "#131313", "on-error-container": "#ffdad6", "on-secondary-fixed": "#1a1b22", "surface-tint": "#d3bbff", "inverse-primary": "#7331df", "error-container": "#93000a", "surface-container-low": "#1c1b1b", "tertiary-fixed-dim": "#ffb68b", "primary-fixed-dim": "#d3bbff", "surface-container-high": "#2a2a2a", "surface-bright": "#3a3939", "surface-dim": "#131313", "secondary-container": "#45464e", "error": "#ffb4ab", "on-primary-fixed-variant": "#5b00c5", "on-background": "#e5e2e1", "tertiary-container": "#8f4200", "on-error": "#690005", "on-tertiary": "#522300", "surface-container": "#201f1f", "on-secondary": "#2f3037", "surface": "#131313", "primary": "#d3bbff", "on-primary-fixed": "#250059", "on-primary-container": "#dac5ff", "on-secondary-container": "#b4b4bd", "on-tertiary-fixed-variant": "#743400", "on-surface-variant": "#ccc3d7", "surface-container-highest": "#353534", "outline": "#958da1", "inverse-surface": "#e5e2e1", "on-secondary-fixed-variant": "#45464e", "secondary-fixed-dim": "#c6c6cf", "on-tertiary-fixed": "#321300", "surface-container-lowest": "#0e0e0e", "surface-variant": "#353534", "secondary-fixed": "#e2e1eb", "on-surface": "#e5e2e1", "on-primary": "#3f008d", "tertiary": "#ffb68b", "tertiary-fixed": "#ffdbc8" }, "borderRadius": { "DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem" }, "spacing": { "margin-mobile": "1.25rem", "space-xs": "0.25rem", "space-3xl": "6rem", "space-sm": "0.5rem", "space-xl": "2.5rem", "space-md": "1rem", "margin": "3rem", "space-2xl": "4rem", "gutter": "1.5rem", "gutter-mobile": "1rem", "space-lg": "1.5rem" }, "fontFamily": { "code-base": ["JetBrains Mono"], "meta-counter": ["JetBrains Mono"], "body-lg": ["Inter"], "headline-lg": ["Space Grotesk"], "body-md": ["Inter"], "meta-tag": ["JetBrains Mono"], "headline-sm": ["Space Grotesk"], "body-sm": ["Inter"], "headline-lg-mobile": ["Space Grotesk"], "display-hero": ["Space Grotesk"], "headline-md": ["Space Grotesk"], "display-hero-mobile": ["Space Grotesk"] }, "fontSize": { "code-base": ["13px", { "lineHeight": "20px", "letterSpacing": "0em", "fontWeight": "400" }], "meta-counter": ["10px", { "lineHeight": "14px", "letterSpacing": "0.1em", "fontWeight": "400" }], "body-lg": ["16px", { "lineHeight": "26px", "letterSpacing": "-0.01em", "fontWeight": "400" }], "headline-lg": ["32px", { "lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "500" }], "body-md": ["14px", { "lineHeight": "22px", "letterSpacing": "0em", "fontWeight": "400" }], "meta-tag": ["11px", { "lineHeight": "16px", "letterSpacing": "0.06em", "fontWeight": "500" }], "headline-sm": ["18px", { "lineHeight": "24px", "letterSpacing": "0em", "fontWeight": "500" }], "body-sm": ["13px", { "lineHeight": "20px", "letterSpacing": "0.01em", "fontWeight": "400" }], "headline-lg-mobile": ["24px", { "lineHeight": "32px", "letterSpacing": "-0.01em", "fontWeight": "500" }], "display-hero": ["56px", { "lineHeight": "64px", "letterSpacing": "-0.03em", "fontWeight": "600" }], "headline-md": ["22px", { "lineHeight": "28px", "letterSpacing": "-0.01em", "fontWeight": "500" }], "display-hero-mobile": ["36px", { "lineHeight": "44px", "letterSpacing": "-0.02em", "fontWeight": "600" }] } } } };</script>
+</head>
+
+<body
+  class="bg-surface font-body-md text-on-surface antialiased selection:bg-primary-container selection:text-on-primary-container min-h-screen flex flex-col">
+  <header
+    class="fixed top-0 left-0 right-0 z-50 bg-surface/80 backdrop-blur-md border-b border-surface-container-highest">
+    <div class="h-16 max-w-5xl mx-auto px-gutter flex items-center justify-between gap-space-md">
+      <div class="flex items-center gap-space-sm"><a
+          class="flex items-center gap-space-xs font-code-base text-code-base text-on-surface tracking-tight group"
+          data-path="home" href="#"><span class="text-primary font-code-base text-code-base">&gt;_</span><span
+            class="font-code-base text-code-base font-medium tracking-tight text-on-surface group-hover:text-primary transition-colors">GIOVANNI.</span><span
+            class="inline-block w-2 h-4 bg-primary animate-terminal-blink ml-space-xs"></span></a>
+        <div
+          class="hidden sm:flex items-center gap-1.5 ml-space-md pl-space-md border-l border-surface-container-highest text-meta-counter font-meta-counter text-secondary">
+          <span class="inline-block w-1.5 h-1.5 rounded-full bg-primary ring-2 ring-primary/20"></span><span
+            class="uppercase tracking-wider">STUDENT / PPLG</span>
+        </div>
+      </div>
+      <nav class="flex items-center gap-space-md sm:gap-space-lg"
+        data-active-classes="text-primary border-b border-primary font-medium"><a aria-current="page"
+          class="pb-0.5 transition-colors text-primary border-b border-primary font-medium" data-path="home"
+          href="#home">Home</a><a
+          class="font-code-base text-code-base text-on-surface-variant hover:text-primary pb-0.5 border-b border-transparent transition-colors"
+          data-path="about" href="#about">About</a><a
+          class="font-code-base text-code-base text-on-surface-variant hover:text-primary pb-0.5 border-b border-transparent transition-colors"
+          data-path="projects" href="#projects">Projects</a><a
+          class="font-code-base text-code-base text-on-surface-variant hover:text-primary pb-0.5 border-b border-transparent transition-colors"
+          data-path="skills" href="#skills">Skills</a><a
+          class="font-code-base text-code-base text-on-surface-variant hover:text-primary pb-0.5 border-b border-transparent transition-colors"
+          data-path="learning" href="#learning">Learning</a><a
+          class="font-code-base text-code-base text-on-surface-variant hover:text-primary pb-0.5 border-b border-transparent transition-colors"
+          data-path="contact" href="#contact">Contact</a></nav>
+      <div class="flex items-center gap-space-sm">
+        <div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span
+            class="material-symbols-outlined text-on-primary text-[18px]">person</span></div>
+      </div>
+    </div>
+  </header>
+  <main class="w-full pt-16 flex-1 bg-surface">
+    <div class="max-w-5xl mx-auto px-gutter py-space-xl">
+      <div class="flex flex-col w-full text-on-surface">
+        <!-- SECTION: HERO -->
+        <section class="relative pt-space-xl pb-space-3xl flex flex-col justify-between" id="home">
+          <!-- Atmospheric subtle drafting coordinates -->
+          <div
+            class="flex items-center justify-between text-meta-counter font-meta-counter text-secondary pb-space-lg select-none">
+            <div class="flex items-center gap-space-sm"><span class="text-primary font-bold">+</span><span
+                class="tracking-widest uppercase">Surakarta, Indonesia</span><span
+                class="text-outline-variant">/</span><span class="text-on-surface-variant">SMK Negeri 2 Surakarta</span>
+            </div>
+            <div
+              class="hidden sm:flex items-center gap-space-xs text-meta-counter font-meta-counter text-on-surface-variant">
+              <span class="">Grade 11 · PPLG</span>
+            </div>
+          </div>
+          <!-- Main Hero Text Stack -->
+          <div class="mt-space-lg max-w-3xl">
+            <!-- Status Badge & Meta pill -->
+            <div
+              class="inline-flex items-center gap-space-sm px-space-sm py-1 bg-surface-container-low rounded text-meta-tag font-meta-tag text-on-surface-variant mb-space-lg">
+              <span
+                class="inline-block w-2 h-2 rounded-full bg-primary ring-2 ring-primary-container animate-pulse"></span>
+              <span class="tracking-wider uppercase text-on-surface font-medium">SOFTWARE &amp; GAMES DEVELOPMENT
+                STUDENT</span>
+              <span class="text-outline-variant">·</span>
+              <span class="text-secondary font-code-base">ID · UTC+7</span>
+            </div>
+            <!-- Headline -->
+            <h1 class="font-display-hero text-display-hero text-on-surface tracking-tight leading-none mb-space-lg">
+              Building things,<br>
+              <span class="text-secondary">one line at a time.</span>
+            </h1>
+            <!-- Supporting Body -->
+            <p class="font-body-lg text-body-lg text-secondary max-w-2xl leading-relaxed mb-space-xl">I'm Giovanni, a
+              software and games development student from Surakarta. I like building things with code — from websites
+              and small software projects to experiments in game development.</p>
+            <!-- Action Buttons CTA -->
+            <div class="flex flex-wrap items-center gap-space-md mb-space-2xl">
+              <a class="group relative inline-flex items-center gap-space-sm px-space-lg py-3 bg-surface-container-high hover:bg-primary-container text-on-surface hover:text-on-primary transition-all duration-300 rounded font-code-base text-code-base shadow-sm"
+                href="#projects">
+                <span class="font-code-base text-primary group-hover:text-on-primary">&gt;_</span>
+                <span class="font-medium tracking-tight">View Projects</span>
+                <span
+                  class="material-symbols-outlined text-[16px] transition-transform duration-200 group-hover:translate-x-0.5">arrow_forward</span>
+              </a>
+              <a class="inline-flex items-center gap-space-sm px-space-lg py-3 bg-surface-container-low hover:bg-surface-container hover:text-on-surface text-secondary transition-colors duration-200 rounded font-code-base text-code-base"
+                href="https://github.com/GioR-67" rel="noopener noreferrer" target="_blank">
+                <span class="font-meta-tag text-meta-tag uppercase tracking-wider">GitHub</span>
+                <span class="material-symbols-outlined text-[16px] text-outline">open_in_new</span>
+              </a>
+            </div>
+            <!-- Live Terminal Prompt Learning Status -->
+            <div
+              class="p-space-md bg-surface-container-low rounded flex flex-col sm:flex-row sm:items-center justify-between gap-space-sm">
+              <div class="flex items-center gap-space-xs font-code-base text-code-base text-secondary overflow-x-auto">
+                <span class="text-primary font-bold">&gt;</span>
+                <span class="text-on-surface-variant font-medium">currently learning:</span>
+                <span
+                  class="text-on-surface px-1.5 py-0.5 bg-surface-container rounded text-meta-tag font-meta-tag">Godot</span>
+                <span class="text-outline-variant">·</span>
+                <span
+                  class="text-on-surface px-1.5 py-0.5 bg-surface-container rounded text-meta-tag font-meta-tag">PHP</span>
+                <span class="text-outline-variant">·</span>
+                <span
+                  class="text-on-surface px-1.5 py-0.5 bg-surface-container rounded text-meta-tag font-meta-tag">JavaScript</span>
+                <span class="text-outline-variant">·</span>
+                <span
+                  class="text-on-surface px-1.5 py-0.5 bg-surface-container rounded text-meta-tag font-meta-tag">Git</span>
+                <span class="inline-block w-2 h-4 bg-primary animate-terminal-blink ml-1"></span>
+              </div>
+              <div
+                class="text-meta-counter font-meta-counter text-outline uppercase tracking-wider self-end sm:self-auto">
+                consistent learning</div>
+            </div>
+          </div>
+        </section>
+        <!-- SECTION: ABOUT -->
+        <section class="py-space-2xl bg-surface" id="about">
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-space-xl items-start">
+            <!-- Left Column: Biography -->
+            <div class="lg:col-span-7 flex flex-col">
+              <div
+                class="font-meta-tag text-meta-tag text-primary uppercase tracking-widest mb-space-sm flex items-center gap-space-xs">
+                <span class="">// 01. ABOUT</span>
+                <span class="inline-block w-8 h-[1px] bg-primary-container"></span>
+              </div>
+              <h2 class="font-headline-lg text-headline-lg text-on-surface mb-space-md tracking-tight">
+                A little about me.
+              </h2>
+              <div class="space-y-space-md font-body-lg text-body-lg text-secondary leading-relaxed">
+                <p class="">I'm currently studying Software and Game Development at SMK Negeri 2 Surakarta. Most of my
+                  time goes into learning how websites, applications, and games work by building small projects myself.
+                </p>
+                <p class="">I'm especially interested in web development, but I also enjoy exploring software
+                  development and game development when I have something I want to experiment with.</p>
+              </div>
+              <div
+                class="mt-space-lg flex items-center gap-space-md text-meta-tag font-meta-tag text-on-surface-variant">
+                <span class="flex items-center gap-1.5"><span
+                    class="inline-block w-1.5 h-1.5 rounded-full bg-primary"></span>SMK Negeri 2 Surakarta</span><span
+                  class="text-outline-variant">/</span><span class="flex items-center gap-1.5"><span
+                    class="inline-block w-1.5 h-1.5 rounded-full bg-secondary"></span>Software &amp; Game
+                  Development</span>
+              </div>
+            </div>
+            <!-- Right Column: Personal Metadata Card -->
+            <div class="lg:col-span-5 bg-surface-container-low rounded p-space-lg shadow-sm">
+              <div
+                class="flex items-center justify-between pb-space-sm mb-space-md bg-surface-container-high px-space-sm py-1 rounded">
+                <span class="font-meta-tag text-meta-tag uppercase text-on-surface font-semibold tracking-wider">STUDENT
+                  INFO</span><span class="font-meta-counter text-meta-counter text-primary">PPLG</span>
+              </div>
+              <div class="space-y-space-md font-code-base text-code-base">
+                <div class="flex flex-col gap-0.5"><span
+                    class="text-meta-tag font-meta-tag text-secondary uppercase tracking-wider">Based in:</span>
+                  <div class="flex items-center gap-space-xs text-on-surface"><span
+                      class="material-symbols-outlined text-[16px] text-primary">location_on</span><span
+                      class="">Surakarta, Indonesia</span></div>
+                </div>
+                <div class="flex flex-col gap-0.5"><span
+                    class="text-meta-tag font-meta-tag text-secondary uppercase tracking-wider">Grade:</span>
+                  <div class="flex items-center gap-space-xs text-on-surface"><span
+                      class="material-symbols-outlined text-[16px] text-tertiary">school</span><span class="">11 PPLG
+                      <span class="text-secondary text-body-sm">(SMK Negeri 2 Surakarta)</span></span></div>
+                </div>
+                <div class="flex flex-col gap-0.5"><span
+                    class="text-meta-tag font-meta-tag text-secondary uppercase tracking-wider">Main Focus:</span>
+                  <div class="flex items-center gap-space-xs text-on-surface"><span
+                      class="material-symbols-outlined text-[16px] text-primary">code</span><span class="">Web
+                      Development</span></div>
+                </div>
+                <div class="flex flex-col gap-0.5"><span
+                    class="text-meta-tag font-meta-tag text-secondary uppercase tracking-wider">Exploring:</span>
+                  <div class="flex items-center gap-space-xs text-on-surface"><span
+                      class="material-symbols-outlined text-[16px] text-primary-fixed">sports_esports</span><span
+                      class="">Software Development &amp; Game Development</span></div>
+                </div>
+              </div>
+              <div
+                class="mt-space-lg pt-space-md bg-surface-container px-space-sm py-space-xs rounded flex items-center justify-between text-meta-counter font-meta-counter text-secondary">
+                <span class="">SMK NEGERI 2 SURAKARTA</span><span class="text-primary font-mono font-medium">ACTIVE
+                  STUDENT</span>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- SECTION: GITHUB ACTIVITY VISUALIZATION -->
+        <section class="py-space-xl bg-surface">
+          <div class="p-space-lg bg-surface-container-low rounded">
+            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-space-xs mb-space-md">
+              <div>
+                <div class="font-meta-tag text-meta-tag text-primary uppercase tracking-widest">// ACTIVITY</div>
+                <h3 class="font-headline-sm text-headline-sm text-on-surface">things I've been building</h3>
+                <p class="font-body-sm text-body-sm text-secondary">small commits, new things to learn</p>
+              </div>
+              <div
+                class="flex items-center gap-1.5 text-meta-counter font-meta-counter text-secondary self-start sm:self-auto">
+                <span class="">Less</span>
+                <span class="w-2.5 h-2.5 rounded-sm bg-surface-container"></span>
+                <span class="w-2.5 h-2.5 rounded-sm bg-primary-container/40"></span>
+                <span class="w-2.5 h-2.5 rounded-sm bg-primary-container"></span>
+                <span class="w-2.5 h-2.5 rounded-sm bg-primary"></span>
+                <span class="">More</span>
+              </div>
+            </div>
+            <!-- Activity Heatmap Matrix Grid (Pure CSS Responsive Block Simulation) -->
+            <div class="overflow-x-auto pb-space-sm">
+              <div class="min-w-[720px] select-none py-2"><!-- Month Labels -->
+                <div
+                  class="flex items-center text-meta-counter font-meta-counter text-outline mb-1.5 pl-6 gap-x-6 sm:gap-x-8 text-[11px]">
+                  <span class="w-12">Jan</span><span class="w-12">Feb</span><span class="w-12">Mar</span><span
+                    class="w-12">Apr</span><span class="w-12">May</span><span class="w-12">Jun</span><span
+                    class="w-12">Jul</span><span class="w-12">Aug</span><span class="w-12">Sep</span><span
+                    class="w-12">Oct</span><span class="w-12">Nov</span><span class="w-12">Dec</span>
+                </div>
+                <!-- Matrix Row with Weekday Labels on Left -->
+                <div class="flex items-start gap-2">
+                  <div
+                    class="flex flex-col justify-between h-[96px] text-meta-counter font-meta-counter text-outline text-[10px] pr-1 select-none leading-none py-0.5">
+                    <span class="">Mon</span><span class="">Wed</span><span class="">Fri</span>
+                  </div>
+                  <div class="flex-1 flex gap-1">
+                    <div class="flex flex-col gap-1">
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-primary-container/40"></div>
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-primary-container/60"></div>
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                    </div>
+                    <div class="flex flex-col gap-1">
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-primary-container/40"></div>
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-primary"></div>
+                      <div class="w-3 h-3 rounded-sm bg-primary-container/60"></div>
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                    </div>
+                    <div class="flex flex-col gap-1">
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-primary-container/30"></div>
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                    </div>
+                    <div class="flex flex-col gap-1">
+                      <div class="w-3 h-3 rounded-sm bg-primary-container/60"></div>
+                      <div class="w-3 h-3 rounded-sm bg-primary"></div>
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-primary-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-primary-container/40"></div>
+                    </div>
+                    <div class="flex flex-col gap-1">
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-primary-container/30"></div>
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                    </div>
+                    <div class="flex flex-col gap-1">
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-primary-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-primary"></div>
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-primary-container/50"></div>
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                    </div>
+                    <div class="flex flex-col gap-1">
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-primary-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-primary-container/40"></div>
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                    </div>
+                    <div class="flex flex-col gap-1">
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-primary"></div>
+                      <div class="w-3 h-3 rounded-sm bg-primary-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                    </div>
+                    <div class="flex flex-col gap-1">
+                      <div class="w-3 h-3 rounded-sm bg-primary-container/30"></div>
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-primary-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-primary"></div>
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                    </div>
+                    <div class="flex flex-col gap-1">
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-primary-container/50"></div>
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                    </div>
+                    <div class="flex flex-col gap-1">
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-primary-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-primary"></div>
+                      <div class="w-3 h-3 rounded-sm bg-primary-container/70"></div>
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                    </div>
+                    <div class="flex flex-col gap-1">
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-primary-container/40"></div>
+                      <div class="w-3 h-3 rounded-sm bg-primary-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                    </div>
+                    <div class="flex flex-col gap-1">
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-primary"></div>
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-primary-container/60"></div>
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                    </div>
+                    <div class="flex flex-col gap-1">
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-primary-container/30"></div>
+                      <div class="w-3 h-3 rounded-sm bg-primary-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-primary"></div>
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                    </div>
+                    <div class="flex flex-col gap-1">
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-primary-container/40"></div>
+                    </div>
+                    <div class="flex flex-col gap-1">
+                      <div class="w-3 h-3 rounded-sm bg-primary-container/50"></div>
+                      <div class="w-3 h-3 rounded-sm bg-primary"></div>
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-primary-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                    </div>
+                    <div class="flex flex-col gap-1">
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-primary-container/30"></div>
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-primary-container/60"></div>
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                    </div>
+                    <div class="flex flex-col gap-1">
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-primary-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-primary"></div>
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                    </div>
+                    <div class="flex flex-col gap-1">
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-primary-container/50"></div>
+                      <div class="w-3 h-3 rounded-sm bg-primary-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                    </div>
+                    <div class="flex flex-col gap-1">
+                      <div class="w-3 h-3 rounded-sm bg-primary-container/40"></div>
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-primary"></div>
+                      <div class="w-3 h-3 rounded-sm bg-primary-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                    </div>
+                    <div class="flex flex-col gap-1">
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-primary-container/50"></div>
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                    </div>
+                    <div class="flex flex-col gap-1">
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-primary-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-primary"></div>
+                      <div class="w-3 h-3 rounded-sm bg-primary-container/80"></div>
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                    </div>
+                    <div class="flex flex-col gap-1">
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-primary-container/30"></div>
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                    </div>
+                    <div class="flex flex-col gap-1">
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-primary"></div>
+                      <div class="w-3 h-3 rounded-sm bg-primary-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-primary-container/50"></div>
+                    </div>
+                    <div class="flex flex-col gap-1">
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-primary-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-primary"></div>
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                    </div>
+                    <div class="flex flex-col gap-1">
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-primary-container/40"></div>
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-primary-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                    </div>
+                    <div class="flex flex-col gap-1">
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-primary"></div>
+                      <div class="w-3 h-3 rounded-sm bg-primary-container/60"></div>
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-primary-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-primary-container/30"></div>
+                    </div>
+                    <div class="flex flex-col gap-1">
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-primary-container/50"></div>
+                      <div class="w-3 h-3 rounded-sm bg-primary"></div>
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                    </div>
+                    <div class="flex flex-col gap-1">
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-primary-container/30"></div>
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-primary"></div>
+                      <div class="w-3 h-3 rounded-sm bg-primary-container"></div>
+                      <div class="w-3 h-3 rounded-sm bg-primary animate-pulse"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Stats Footer -->
+            <div
+              class="mt-space-md pt-space-sm flex flex-col sm:flex-row items-start sm:items-center justify-between text-meta-tag font-meta-tag text-secondary gap-space-xs">
+              <div class="flex items-center gap-space-sm"><span class="text-on-surface font-semibold">building,
+                  learning, experimenting</span><span class="text-outline-variant">·</span><span
+                  class="text-primary font-medium">personal commit log</span></div>
+              <div class="text-outline">consistent practice & code exploration</div>
+            </div>
+          </div>
+        </section>
+        <!-- SECTION: PROJECTS (Visual Centerpiece) -->
+        <section class="py-space-2xl bg-surface" id="projects">
+          <!-- Header -->
+          <div class="mb-space-2xl">
+            <div
+              class="font-meta-tag text-meta-tag text-primary uppercase tracking-widest mb-space-sm flex items-center gap-space-xs">
+              <span class="">// 02. SELECTED WORK</span>
+              <span class="inline-block w-8 h-[1px] bg-primary-container"></span>
+            </div>
+            <h2 class="font-headline-lg text-headline-lg text-on-surface tracking-tight mb-space-xs">
+              Projects &amp; Experiments
+            </h2>
+            <p class="font-body-md text-body-md text-secondary max-w-xl">
+              Case studies and ongoing software projects built for academic curriculum and personal deep-dives.
+            </p>
+          </div>
+          <!-- Project Entries Deck (Generous Horizontal Layouts) -->
+          <div class="space-y-space-xl">
+            <!-- ENTRY 01: BMI Calculator Android -->
+            <div
+              class="group bg-surface-container-low hover:bg-surface-container rounded p-space-lg sm:p-space-xl transition-all duration-300 shadow-sm">
+              <div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg items-center">
+                <!-- Left: Styled Mobile Device & Native Fragment -->
+                <div class="lg:col-span-6 order-2 lg:order-1">
+                  <div
+                    class="bg-surface-container-lowest rounded p-space-md font-code-base text-code-base overflow-hidden">
+                    <div
+                      class="flex items-center justify-between pb-space-sm mb-space-sm text-meta-counter font-meta-counter text-secondary">
+                      <div class="flex items-center gap-1.5"><span
+                          class="material-symbols-outlined text-primary text-[14px]">smartphone</span><span
+                          class="text-on-surface-variant font-mono">MainActivity.java</span></div><span class="">Android
+                        Studio</span>
+                    </div>
+                    <!-- Device Simulation Card -->
+                    <div
+                      class="bg-surface-container-low rounded p-space-md mb-space-sm flex items-center justify-between">
+                      <div class="flex items-center gap-1.5"><span
+                          class="material-symbols-outlined text-primary text-[14px]">smartphone</span><span
+                          class="text-on-surface-variant font-mono">MainActivity.java</span></div><span class="">Android
+                        Studio</span>
+                    </div>
+                    <!-- Kotlin calculation logic snippet -->
+                    <div class="space-y-0.5 text-body-sm font-code-base leading-5">
+                      <div class="text-secondary"><span class="text-outline-variant mr-3 select-none">01</span><span
+                          class="text-primary">val</span> bmi = weightKg / ((heightCm / <span
+                          class="text-tertiary">100f</span>).pow(<span class="text-tertiary">2</span>))</div>
+                      <div class="text-secondary"><span
+                          class="text-outline-variant mr-3 select-none">02</span>_category.value = <span
+                          class="text-primary">when</span> {</div>
+                      <div class="text-secondary"><span class="text-outline-variant mr-3 select-none">03</span> bmi &lt;
+                        <span class="text-tertiary">18.5f</span> -&gt; BmiCategory.UNDERWEIGHT
+                      </div>
+                      <div class="text-secondary"><span class="text-outline-variant mr-3 select-none">04</span> bmi
+                        <span class="text-primary">in</span> <span class="text-tertiary">18.5f</span>..<span
+                          class="text-tertiary">24.9f</span> -&gt; BmiCategory.NORMAL
+                      </div>
+                      <div class="text-secondary"><span class="text-outline-variant mr-3 select-none">05</span> <span
+                          class="text-primary">else</span> -&gt; BmiCategory.OVERWEIGHT</div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Right: Details -->
+                <div class="lg:col-span-6 flex flex-col justify-between h-full order-1 lg:order-2">
+                  <div>
+                    <div class="flex items-center gap-space-sm mb-space-sm">
+                      <span class="font-meta-tag text-meta-tag text-primary font-semibold">01</span>
+                      <span class="text-outline-variant font-mono">/</span>
+                      <span class="font-meta-tag text-meta-tag text-secondary uppercase tracking-wider">MOBILE
+                        SOFTWARE</span>
+                    </div>
+                    <h3
+                      class="font-headline-md text-headline-md text-on-surface group-hover:text-primary transition-colors tracking-tight mb-space-sm">
+                      BMI CALCULATOR
+                    </h3>
+                    <p class="font-body-md text-body-md text-secondary leading-relaxed mb-space-lg">An Android BMI
+                      calculator created as a school project. It focuses on simple input handling, calculation, and a
+                      clean mobile interface.</p>
+                  </div>
+                  <div>
+                    <div class="flex flex-wrap items-center gap-space-xs mb-space-lg"><span
+                        class="px-space-sm py-1 bg-surface-container-high rounded text-meta-tag font-meta-tag text-on-surface">Android</span><span
+                        class="px-space-sm py-1 bg-surface-container-high rounded text-meta-tag font-meta-tag text-on-surface">Java</span><span
+                        class="px-space-sm py-1 bg-surface-container-high rounded text-meta-tag font-meta-tag text-on-surface">XML</span>
+                    </div>
+                    <div>
+                      <a class="inline-flex items-center gap-space-xs px-space-md py-2 bg-surface-container-highest hover:bg-primary text-on-surface hover:text-on-primary rounded text-meta-tag font-meta-tag transition-all duration-200"
+                        href="https://github.com/GioR-67/Project-BMI_Calculator" target="_blank"
+                        rel="noopener noreferrer">
+                        <span class="">View Project</span>
+                        <span
+                          class="material-symbols-outlined text-[15px] transition-transform group-hover:translate-x-1">arrow_forward</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- ENTRY 02: Sistem Informasi Sekolah -->
+            <div
+              class="group bg-surface-container-low hover:bg-surface-container rounded p-space-lg sm:p-space-xl transition-all duration-300 shadow-sm">
+              <div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg items-center">
+                <!-- Left: Details -->
+                <div class="lg:col-span-6 flex flex-col justify-between h-full">
+                  <div>
+                    <div class="flex items-center gap-space-sm mb-space-sm">
+                      <span class="font-meta-tag text-meta-tag text-primary font-semibold">02</span>
+                      <span class="text-outline-variant font-mono">/</span>
+                      <span class="font-meta-tag text-meta-tag text-secondary uppercase tracking-wider">WEB
+                        APPLICATION</span>
+                    </div>
+                    <h3
+                      class="font-headline-md text-headline-md text-on-surface group-hover:text-primary transition-colors tracking-tight mb-space-sm">
+                      SISTEM INFORMASI SEKOLAH
+                    </h3>
+                    <p class="font-body-md text-body-md text-secondary leading-relaxed mb-space-lg">A school project for
+                      managing student data. I built the CRUD functionality for adding, editing, deleting, searching,
+                      and displaying student records.</p>
+                  </div>
+                  <div>
+                    <div class="flex flex-wrap items-center gap-space-xs mb-space-lg"><span
+                        class="px-space-sm py-1 bg-surface-container-high rounded text-meta-tag font-meta-tag text-on-surface">PHP</span><span
+                        class="px-space-sm py-1 bg-surface-container-high rounded text-meta-tag font-meta-tag text-on-surface">MySQL</span><span
+                        class="px-space-sm py-1 bg-surface-container-high rounded text-meta-tag font-meta-tag text-on-surface">HTML</span><span
+                        class="px-space-sm py-1 bg-surface-container-high rounded text-meta-tag font-meta-tag text-on-surface">CSS</span>
+                    </div>
+                    <div>
+                      <a class="inline-flex items-center gap-space-xs px-space-md py-2 bg-surface-container-highest cursor-not-allowed opacity-70 text-on-surface  rounded text-meta-tag font-meta-tag transition-all duration-200"
+                        href="#">
+                        <span class="">Coming Soon</span>
+                        <span
+                          class="material-symbols-outlined text-[15px] transition-transform group-hover:translate-x-1">hourglass_empty</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <!-- Right: Visual Preview (Database & PHP Schema Fragment) -->
+                <div class="lg:col-span-6">
+                  <div
+                    class="bg-surface-container-lowest rounded p-space-md font-code-base text-code-base overflow-hidden">
+                    <div
+                      class="flex items-center justify-between pb-space-sm mb-space-sm text-meta-counter font-meta-counter text-secondary">
+                      <div class="flex items-center gap-1.5"><span
+                          class="w-2.5 h-2.5 rounded-full bg-error-container"></span><span
+                          class="w-2.5 h-2.5 rounded-full bg-tertiary-container"></span><span
+                          class="w-2.5 h-2.5 rounded-full bg-primary-container"></span><span
+                          class="ml-2 text-on-surface-variant font-mono">student_crud.php</span></div><span class="">PHP
+                        / MySQL</span>
+                    </div>
+                    <div class="space-y-0.5 text-body-sm font-code-base leading-5">
+                      <div class="text-secondary"><span class="text-outline-variant mr-3 select-none">01</span><span
+                          class="text-primary">&lt;?php</span></div>
+                      <div class="text-secondary"><span class="text-outline-variant mr-3 select-none">02</span><span
+                          class="text-tertiary">$conn</span> = mysqli_connect(<span
+                          class="text-on-primary-container">'localhost'</span>, <span
+                          class="text-on-primary-container">'root'</span>, <span
+                          class="text-on-primary-container">''</span>, <span
+                          class="text-on-primary-container">'db_sekolah'</span>);</div>
+                      <div class="text-secondary"><span class="text-outline-variant mr-3 select-none">03</span><span
+                          class="text-tertiary">$query</span> = <span class="text-on-primary-container">"SELECT nisn,
+                          nama, kelas FROM siswa ORDER BY nama ASC"</span>;</div>
+                      <div class="text-secondary"><span class="text-outline-variant mr-3 select-none">04</span><span
+                          class="text-tertiary">$result</span> = mysqli_query(<span class="text-tertiary">$conn</span>,
+                        <span class="text-tertiary">$query</span>);
+                      </div>
+                      <div class="text-secondary"><span class="text-outline-variant mr-3 select-none">05</span><span
+                          class="text-primary">while</span> (<span class="text-tertiary">$row</span> =
+                        mysqli_fetch_assoc(<span class="text-tertiary">$result</span>)) { <span
+                          class="text-outline-variant">/* render row */</span> }</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- ENTRY 03: 2D Game Development in Godot -->
+            <div
+              class="group bg-surface-container-low hover:bg-surface-container rounded p-space-lg sm:p-space-xl transition-all duration-300 shadow-sm">
+              <div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg items-center">
+                <!-- Left: Details -->
+                <div class="lg:col-span-6 flex flex-col justify-between h-full">
+                  <div>
+                    <div class="flex items-center gap-space-sm mb-space-sm">
+                      <span class="font-meta-tag text-meta-tag text-primary font-semibold">03</span>
+                      <span class="text-outline-variant font-mono">/</span>
+                      <span class="font-meta-tag text-meta-tag text-secondary uppercase tracking-wider">GAME
+                        PROJECT</span>
+                    </div>
+                    <h3
+                      class="font-headline-md text-headline-md text-on-surface group-hover:text-primary transition-colors tracking-tight mb-space-sm">
+                      2D NARRATIVE GAME EXPERIMENT
+                    </h3>
+                    <p class="font-body-md text-body-md text-secondary leading-relaxed mb-space-lg">A small 2D game
+                      experiment I'm building while learning Godot. I'm exploring character movement, animation, scenes,
+                      and the foundations of narrative game development.</p>
+                  </div>
+                  <div>
+                    <div class="flex flex-wrap items-center gap-space-xs mb-space-lg"><span
+                        class="px-space-sm py-1 bg-surface-container-high rounded text-meta-tag font-meta-tag text-on-surface">Godot</span><span
+                        class="px-space-sm py-1 bg-surface-container-high rounded text-meta-tag font-meta-tag text-on-surface">GDScript</span>
+                    </div>
+                    <div>
+                      <a class="inline-flex items-center gap-space-xs px-space-md py-2 bg-surface-container-highest cursor-not-allowed opacity-70 text-on-surface  rounded text-meta-tag font-meta-tag transition-all duration-200"
+                        href="#">
+                        <span class="">Coming Soon</span>
+                        <span
+                          class="material-symbols-outlined text-[15px] transition-transform group-hover:translate-x-1">hourglass_empty</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <!-- Right: Visual Preview (Godot Scene Tree + Canvas Viewport Mockup) -->
+                <div class="lg:col-span-6">
+                  <div
+                    class="bg-surface-container-lowest rounded p-space-md font-code-base text-code-base overflow-hidden">
+                    <div
+                      class="flex items-center justify-between pb-space-sm mb-space-sm text-meta-counter font-meta-counter text-secondary">
+                      <div class="flex items-center gap-1.5"><span
+                          class="material-symbols-outlined text-primary text-[14px]">sports_esports</span><span
+                          class="text-on-surface-variant font-mono">res://scenes/Player.tscn</span></div><span
+                        class="">Godot Engine</span>
+                    </div>
+                    <!-- Canvas simulation with pixel moon & particle vibes -->
+                    <div
+                      class="h-28 bg-surface-container-low rounded mb-space-sm relative overflow-hidden flex flex-col justify-end p-space-sm">
+                      <!-- Atmospheric background element -->
+                      <div
+                        class="absolute top-3 right-6 w-10 h-10 rounded-full bg-primary-container/20 flex items-center justify-center">
+                        <div class="w-6 h-6 rounded-full bg-primary/40"></div>
+                      </div>
+                      <!-- Simple ground line with grid pattern -->
+                      <div class="absolute bottom-4 left-0 right-0 h-0.5 bg-surface-container-highest"></div>
+                      <div
+                        class="relative z-10 flex items-center justify-between text-meta-counter font-meta-counter text-secondary">
+                        <div class="flex items-center gap-1 text-primary"><span
+                            class="material-symbols-outlined text-[14px]">account_circle</span><span class="">Player
+                            Scene View</span></div><span class="text-on-surface-variant">2D Node hierarchy</span>
+                      </div>
+                    </div>
+                    <!-- Scene tree hierarchy -->
+                    <div class="space-y-0.5 text-body-sm font-code-base">
+                      <div class="text-on-surface font-semibold flex items-center gap-1">
+                        <span class="text-primary">▾</span>
+                        <span class="">Node2D (LevelRoot)</span>
+                      </div>
+                      <div class="text-secondary pl-4 flex items-center gap-1">
+                        <span class="text-outline-variant">├─</span>
+                        <span class="text-primary-fixed">TileMapLayer</span>
+                        <span class="text-meta-counter font-meta-counter text-outline">[collision_layer=1]</span>
+                      </div>
+                      <div class="text-secondary pl-4 flex items-center gap-1">
+                        <span class="text-outline-variant">└─</span>
+                        <span class="text-on-surface">CharacterBody2D (Player)</span>
+                      </div>
+                      <div class="text-secondary pl-8 flex items-center gap-1">
+                        <span class="text-outline-variant">├─</span>
+                        <span class="text-secondary">AnimatedSprite2D</span>
+                      </div>
+                      <div class="text-secondary pl-8 flex items-center gap-1">
+                        <span class="text-outline-variant">└─</span>
+                        <span class="text-secondary">CollisionShape2D</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- SECTION: SKILLS / TOOLBOX -->
+        <section class="py-space-2xl bg-surface" id="skills">
+          <div class="mb-space-xl">
+            <div
+              class="font-meta-tag text-meta-tag text-primary uppercase tracking-widest mb-space-sm flex items-center gap-space-xs">
+              <span class="">// 03. TOOLBOX</span>
+              <span class="inline-block w-8 h-[1px] bg-primary-container"></span>
+            </div>
+            <h2 class="font-headline-lg text-headline-lg text-on-surface tracking-tight mb-space-xs">
+              Technologies &amp; Tools
+            </h2>
+            <p class="font-body-md text-body-md text-secondary max-w-xl">
+              A collection of tools I work with daily and technologies I'm actively discovering through coursework and
+              self-directed study.
+            </p>
+          </div>
+          <!-- 3-Column Minimal Editorial Bento Deck -->
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-space-md">
+            <!-- Group 1: WEB -->
+            <div class="bg-surface-container-low rounded p-space-lg flex flex-col justify-between">
+              <div>
+                <div
+                  class="flex items-center justify-between pb-space-sm mb-space-md bg-surface-container-high px-space-sm py-1 rounded">
+                  <span class="font-meta-tag text-meta-tag uppercase tracking-wider text-on-surface font-semibold">WEB
+                    DEVELOPMENT</span>
+                  <span class="text-meta-counter font-meta-counter text-primary">01/03</span>
+                </div>
+                <div class="space-y-space-sm">
+                  <div
+                    class="flex items-center justify-between p-space-sm bg-surface-container rounded hover:bg-surface-container-high transition-colors">
+                    <span class="font-headline-sm text-headline-sm text-on-surface">HTML / CSS</span>
+                    <span class="text-meta-tag font-meta-tag text-secondary font-mono">Semantic &amp; Flexbox</span>
+                  </div>
+                  <div
+                    class="flex items-center justify-between p-space-sm bg-surface-container rounded hover:bg-surface-container-high transition-colors">
+                    <span class="font-headline-sm text-headline-sm text-on-surface">JavaScript</span>
+                    <span class="text-meta-tag font-meta-tag text-secondary font-mono">ES6+ &amp; DOM APIs</span>
+                  </div>
+                  <div
+                    class="flex items-center justify-between p-space-sm bg-surface-container rounded hover:bg-surface-container-high transition-colors">
+                    <span class="font-headline-sm text-headline-sm text-on-surface">PHP</span>
+                    <span class="text-meta-tag font-meta-tag text-secondary font-mono">Backend Logic</span>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="mt-space-lg pt-space-sm flex items-center gap-1.5 text-meta-counter font-meta-counter text-outline">
+                <span class="w-1.5 h-1.5 rounded-full bg-primary"></span>
+                <span class="">DOM manipulation, CRUD interfaces</span>
+              </div>
+            </div>
+            <!-- Group 2: SOFTWARE -->
+            <div class="bg-surface-container-low rounded p-space-lg flex flex-col justify-between">
+              <div>
+                <div
+                  class="flex items-center justify-between pb-space-sm mb-space-md bg-surface-container-high px-space-sm py-1 rounded">
+                  <span
+                    class="font-meta-tag text-meta-tag uppercase tracking-wider text-on-surface font-semibold">SOFTWARE</span>
+                  <span class="text-meta-counter font-meta-counter text-primary">02/03</span>
+                </div>
+                <div class="space-y-space-sm">
+                  <div
+                    class="flex items-center justify-between p-space-sm bg-surface-container rounded hover:bg-surface-container-high transition-colors">
+                    <span class="font-headline-sm text-headline-sm text-on-surface">Java</span>
+                    <span class="text-meta-tag font-meta-tag text-secondary font-mono">OOP Foundations</span>
+                  </div>
+                  <div
+                    class="flex items-center justify-between p-space-sm bg-surface-container rounded hover:bg-surface-container-high transition-colors">
+                    <span class="font-headline-sm text-headline-sm text-on-surface">Python</span>
+                    <span class="text-meta-tag font-meta-tag text-secondary font-mono">Scripting &amp; Logic</span>
+                  </div>
+                  <div
+                    class="flex items-center justify-between p-space-sm bg-surface-container rounded hover:bg-surface-container-high transition-colors">
+                    <span class="font-headline-sm text-headline-sm text-on-surface">C++</span>
+                    <span class="text-meta-tag font-meta-tag text-secondary font-mono">Memory Concepts</span>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="mt-space-lg pt-space-sm flex items-center gap-1.5 text-meta-counter font-meta-counter text-outline">
+                <span class="w-1.5 h-1.5 rounded-full bg-primary"></span>
+                <span class="">Algorithmic thinking, data structures</span>
+              </div>
+            </div>
+            <!-- Group 3: TOOLS -->
+            <div class="bg-surface-container-low rounded p-space-lg flex flex-col justify-between">
+              <div>
+                <div
+                  class="flex items-center justify-between pb-space-sm mb-space-md bg-surface-container-high px-space-sm py-1 rounded">
+                  <span class="font-meta-tag text-meta-tag uppercase tracking-wider text-on-surface font-semibold">TOOLS
+                    &amp; ENGINES</span>
+                  <span class="text-meta-counter font-meta-counter text-primary">03/03</span>
+                </div>
+                <div class="space-y-space-sm">
+                  <div
+                    class="flex items-center justify-between p-space-sm bg-surface-container rounded hover:bg-surface-container-high transition-colors">
+                    <span class="font-headline-sm text-headline-sm text-on-surface">Git &amp; GitHub</span>
+                    <span class="text-meta-tag font-meta-tag text-secondary font-mono">Version Control</span>
+                  </div>
+                  <div
+                    class="flex items-center justify-between p-space-sm bg-surface-container rounded hover:bg-surface-container-high transition-colors">
+                    <span class="font-headline-sm text-headline-sm text-on-surface">MySQL</span>
+                    <span class="text-meta-tag font-meta-tag text-secondary font-mono">Relational DB</span>
+                  </div>
+                  <div
+                    class="flex items-center justify-between p-space-sm bg-surface-container rounded hover:bg-surface-container-high transition-colors">
+                    <span class="font-headline-sm text-headline-sm text-on-surface">Godot Engine</span>
+                    <span class="text-meta-tag font-meta-tag text-secondary font-mono">GDScript / 2D</span>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="mt-space-lg pt-space-sm flex items-center gap-1.5 text-meta-counter font-meta-counter text-outline">
+                <span class="w-1.5 h-1.5 rounded-full bg-primary"></span>
+                <span class="">CI workflows, engine scene nodes</span>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- SECTION: LEARNING JOURNEY TIMELINE -->
+        <section class="py-space-2xl bg-surface" id="learning">
+          <div class="mb-space-xl">
+            <div
+              class="font-meta-tag text-meta-tag text-primary uppercase tracking-widest mb-space-sm flex items-center gap-space-xs">
+              <span class="">// 04. TIMELINE</span>
+              <span class="inline-block w-8 h-[1px] bg-primary-container"></span>
+            </div>
+            <h2 class="font-headline-lg text-headline-lg text-on-surface tracking-tight mb-space-xs">
+              Learning Journey
+            </h2>
+            <p class="font-body-md text-body-md text-secondary max-w-xl">
+              Milestones along the path from initial curiosity to structured vocational development.
+            </p>
+          </div>
+          <!-- Minimal Understated Vertical Timeline -->
+          <div
+            class="relative pl-6 sm:pl-8 space-y-space-lg before:content-[''] before:absolute before:left-2 sm:before:left-2.5 before:top-2 before:bottom-2 before:w-[2px] before:bg-surface-container-highest">
+            <div class="relative flex flex-col sm:flex-row sm:items-baseline gap-space-xs sm:gap-space-lg group">
+              <div
+                class="absolute -left-6 sm:-left-8 top-1.5 w-3 h-3 rounded-full bg-surface-container-highest ring-4 ring-surface">
+              </div>
+              <div class="w-20 font-meta-tag text-meta-tag text-secondary font-bold">2023</div>
+              <div class="flex-1 font-body-md text-body-md text-on-surface">First getting interested in programming and
+                exploring fundamental computer logic.</div>
+            </div>
+            <div class="relative flex flex-col sm:flex-row sm:items-baseline gap-space-xs sm:gap-space-lg group">
+              <div
+                class="absolute -left-6 sm:-left-8 top-1.5 w-3 h-3 rounded-full bg-surface-container-highest ring-4 ring-surface">
+              </div>
+              <div class="w-20 font-meta-tag text-meta-tag text-secondary font-bold">2024</div>
+              <div class="flex-1 font-body-md text-body-md text-on-surface">Started learning web development
+                fundamentals (HTML, CSS, JavaScript) and basic programming logic.</div>
+            </div>
+            <div class="relative flex flex-col sm:flex-row sm:items-baseline gap-space-xs sm:gap-space-lg group">
+              <div
+                class="absolute -left-6 sm:-left-8 top-1.5 w-3 h-3 rounded-full bg-surface-container-highest ring-4 ring-surface">
+              </div>
+              <div class="w-20 font-meta-tag text-meta-tag text-secondary font-bold">2025</div>
+              <div class="flex-1 font-body-md text-body-md text-on-surface">Started working with PHP, MySQL, and Git
+                through vocational school assignments and database projects.</div>
+            </div>
+            <div class="relative flex flex-col sm:flex-row sm:items-baseline gap-space-xs sm:gap-space-lg group">
+              <div
+                class="absolute -left-6 sm:-left-8 top-1.5 w-3 h-3 rounded-full bg-surface-container-highest ring-4 ring-surface">
+              </div>
+              <div class="w-20 font-meta-tag text-meta-tag text-secondary font-bold">2026</div>
+              <div class="flex-1 font-body-md text-body-md text-on-surface">Exploring Android development with Java/XML
+                and 2D game development in Godot.</div>
+            </div>
+            <div class="relative flex flex-col sm:flex-row sm:items-baseline gap-space-xs sm:gap-space-lg group">
+              <div
+                class="absolute -left-6 sm:-left-8 top-1.5 w-3 h-3 rounded-full bg-primary ring-4 ring-primary-container/40 animate-pulse">
+              </div>
+              <div class="w-20 font-meta-tag text-meta-tag text-primary font-bold">CURRENT</div>
+              <div class="flex-1 font-body-md text-body-md text-on-surface font-medium">Building projects and preparing
+                for internship opportunities.</div>
+            </div>
+          </div>
+        </section>
+        <!-- SECTION: CONTACT -->
+        <section class="pt-space-2xl pb-space-3xl bg-surface" id="contact">
+          <div class="p-space-xl bg-surface-container-low rounded">
+            <div
+              class="font-meta-tag text-meta-tag text-primary uppercase tracking-widest mb-space-sm flex items-center gap-space-xs">
+              <span class="">// 05. CONTACT</span>
+              <span class="inline-block w-8 h-[1px] bg-primary-container"></span>
+            </div>
+            <div class="max-w-2xl mb-space-xl">
+              <h2 class="font-display-hero text-headline-lg text-on-surface tracking-tight mb-space-sm">
+                Let's build something.
+              </h2>
+              <p class="font-body-lg text-body-lg text-secondary leading-relaxed">
+                If you want to talk about a project, technology, potential collaboration, or just exchange ideas about
+                software and game dev, feel free to reach out.
+              </p>
+            </div>
+            <!-- Contact Link Cards Deck -->
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-space-md mb-space-xl">
+              <!-- GitHub Card -->
+              <a class="group p-space-md bg-surface-container hover:bg-surface-container-high transition-colors rounded flex flex-col justify-between"
+                href="https://github.com/GioR-67" rel="noopener noreferrer" target="_blank">
+                <div class="flex items-center justify-between mb-space-md text-secondary group-hover:text-primary">
+                  <span class="font-meta-tag text-meta-tag uppercase tracking-wider font-semibold">GitHub</span>
+                  <span class="material-symbols-outlined text-[18px]">open_in_new</span>
+                </div>
+                <div>
+                  <div class="font-headline-sm text-headline-sm text-on-surface">@GioR-67</div>
+                  <div class="text-meta-counter font-meta-counter text-outline">Code repositories &amp; gists</div>
+                </div>
+              </a>
+              <!-- LinkedIn Card -->
+              <a class="group p-space-md bg-surface-container hover:bg-surface-container-high transition-colors rounded flex flex-col justify-between"
+                href="https://www.linkedin.com/in/giovanni-rifki-aditya-bb68493a7/?isSelfProfile=true"
+                rel="noopener noreferrer" target="_blank">
+                <div class="flex items-center justify-between mb-space-md text-secondary group-hover:text-primary">
+                  <span class="font-meta-tag text-meta-tag uppercase tracking-wider font-semibold">LinkedIn</span>
+                  <span class="material-symbols-outlined text-[18px]">open_in_new</span>
+                </div>
+                <div>
+                  <div class="font-headline-sm text-headline-sm text-on-surface">Giovanni Rifki Aditya</div>
+                  <div class="text-meta-counter font-meta-counter text-outline">Professional network</div>
+                </div>
+              </a>
+              <!-- Email Card with Copy Feature -->
+              <div class="p-space-md bg-surface-container rounded flex flex-col justify-between">
+                <div class="flex items-center justify-between mb-space-md text-secondary">
+                  <span class="font-meta-tag text-meta-tag uppercase tracking-wider font-semibold">Email</span>
+                  <button
+                    class="text-secondary hover:text-primary transition-colors flex items-center gap-1 text-meta-counter font-meta-counter"
+                    id="copyEmailBtn" title="Copy email address">
+                    <span class="material-symbols-outlined text-[16px]" id="copyIcon">content_copy</span>
+                    <span id="copyFeedback" class="">copy</span>
+                  </button>
+                </div>
+                <div>
+                  <div class="font-code-base text-code-base text-on-surface truncate">giovanni.rifki.aditya@gmail.com
+                  </div>
+                  <div class="text-meta-counter font-meta-counter text-outline">Direct inquiries</div>
+                </div>
+              </div>
+            </div>
+            <!-- Availability Banner -->
+            <div
+              class="pt-space-md flex flex-col sm:flex-row items-start sm:items-center justify-between text-meta-tag font-meta-tag text-secondary gap-space-sm bg-surface-container px-space-md py-space-xs rounded">
+              <div class="flex items-center gap-2"><span
+                  class="inline-block w-2 h-2 rounded-full bg-primary ring-2 ring-primary/20 animate-pulse"></span><span
+                  class="uppercase font-semibold tracking-wider text-on-surface">AVAILABLE FOR: VOCATIONAL INTERNSHIP
+                  &amp; COLLABORATION</span></div>
+              <div class="font-mono text-outline">OPEN TO OPPORTUNITIES</div>
+            </div>
+          </div>
+        </section>
+        <!-- Interactive JavaScript for micro-interactions -->
+        <script>
+          (function () {
+            // Email copy to clipboard helper
+            const copyBtn = document.getElementById('copyEmailBtn');
+            const copyFeedback = document.getElementById('copyFeedback');
+            const copyIcon = document.getElementById('copyIcon');
+            const emailText = 'giovanni.rifki.aditya@gmail.com';
+
+            if (copyBtn) {
+              copyBtn.addEventListener('click', function (e) {
+                e.preventDefault();
+                navigator.clipboard.writeText(emailText).then(function () {
+                  if (copyFeedback) copyFeedback.textContent = 'copied!';
+                  if (copyIcon) copyIcon.textContent = 'check';
+                  setTimeout(function () {
+                    if (copyFeedback) copyFeedback.textContent = 'copy';
+                    if (copyIcon) copyIcon.textContent = 'content_copy';
+                  }, 2000);
+                }).catch(function () {
+                  if (copyFeedback) copyFeedback.textContent = 'failed';
+                });
+              });
+            }
+
+            // Smooth scroll and active navigation state
+            const navLinks = document.querySelectorAll('nav a');
+            const sections = document.querySelectorAll('section[id]');
+
+            window.addEventListener('scroll', () => {
+              let current = 'home';
+              sections.forEach(section => {
+                const sectionTop = section.getBoundingClientRect().top + window.scrollY - 64;
+                if (window.scrollY >= (sectionTop - 150)) {
+                  current = section.getAttribute('id');
+                }
+              });
+
+              // Pastikan tab contact aktif jika sudah scroll sampai paling bawah
+              if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight - 10) {
+                current = 'contact';
+              }
+
+              navLinks.forEach(link => {
+                if (link.getAttribute('href') === '#' + current) {
+                  link.className = 'pb-0.5 transition-colors text-primary border-b border-primary font-medium';
+                  link.setAttribute('aria-current', 'page');
+                } else {
+                  link.className = 'font-code-base text-code-base text-on-surface-variant hover:text-primary pb-0.5 border-b border-transparent transition-colors';
+                  link.removeAttribute('aria-current');
+                }
+              });
+            });
+
+            navLinks.forEach(link => {
+              link.addEventListener('click', function (e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href').substring(1);
+                const targetSection = document.getElementById(targetId);
+                if (targetSection) {
+                  const top = targetSection.getBoundingClientRect().top + window.scrollY - 64;
+                  window.scrollTo({
+                    top: top,
+                    behavior: 'smooth'
+                  });
+                  history.pushState(null, null, this.getAttribute('href'));
+                }
+              });
+            });
+          })();
+        </script>
+      </div>
+    </div>
+  </main>
+  <footer class="w-full bg-surface-container-lowest border-t border-surface-container-highest py-space-xl mt-auto">
+    <div
+      class="max-w-5xl mx-auto px-gutter flex flex-col md:flex-row items-center justify-between gap-space-md text-meta-tag font-meta-tag text-on-surface-variant">
+      <div class="flex flex-col sm:flex-row items-center gap-space-xs sm:gap-space-sm text-center sm:text-left"><span
+          class="">© 2026 Giovanni Rifki Aditya</span><span class="hidden sm:inline text-outline-variant">·</span><span
+          class="text-secondary">“Built with curiosity and a lot of code.”</span></div>
+      <div
+        class="flex items-center gap-space-sm font-code-base text-code-base text-on-surface-variant bg-surface-container-low px-space-md py-space-xs rounded border border-surface-container-highest">
+        <span class="inline-block w-2 h-2 rounded-full bg-tertiary"></span><span
+          class="font-meta-tag text-meta-tag text-on-surface">Surakarta, ID · UTC+7</span>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+
+</body>
+
+</html>
